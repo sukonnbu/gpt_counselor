@@ -1,0 +1,18 @@
+<DOCTYPE html>
+<html>
+    <head>
+        <title>Chat</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <main>
+            <form>
+                <input type="text" id="user_input" name="user_input" />
+            </form>
+        </main>
+        {% for res in responses %}
+            <div>{{res}}</div>
+            <br><br>
+        {% endfor %}
+    </body>
+</html>
